@@ -1,0 +1,22 @@
+
+1) SELECT * FROM meals WHERE price < 15;
+
+2) SELECT * FROM ingredients WHERE vegetarian = true;
+
+3) SELECT * FROM meals WHERE kcal > 500;
+
+4) SELECT * FROM meals WHERE price BETWEEN 15 and 16;
+
+5) SELECT * FROM ingredients WHERE lactose_free = true AND gluten_free = true;
+
+6) SELECT * FROM meals WHERE price < 15 OR kcal > 600;
+
+7) SELECT * FROM ingredients WHERE vegan = true OR gluten_free = true;
+
+8) SELECT * FROM meals WHERE name = 'Pesto Pasta';
+
+9) SELECT * FROM ingredients WHERE lactose_free = false;
+
+10) SELECT * FROM meals WHERE price > 20 AND kcal < 800;
+
+
